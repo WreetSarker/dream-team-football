@@ -7,7 +7,7 @@ const Team = (props) => {
             <h2>Total added players: {props.team.length}</h2>
             <ul>
                 {
-                    props.team.map(player => <li>{player.name}</li>)
+                    props.team.map(player => <li>{player.name} : {player.salary}</li>)
                 }
             </ul>
             <p>Total salary of added players: {salarySum}</p>
